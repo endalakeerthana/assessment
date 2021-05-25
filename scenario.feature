@@ -11,8 +11,8 @@ Feature: Verification of objectives
 	Scenario: Need to verify the values on the screen are greater than 0
 	Then values on the screen are greater than 0
 	
-  Scenario: Need to verify the values are formatted as currencies
+        Scenario: Need to verify the values are formatted as currencies
 	Then values are formatted same as currencies
 	
-  Scenario: Need to verify the total balance matches the sum of the values
+        Scenario: Need to verify the total balance matches the sum of the values
 	Then total balance matches with the sum of values
